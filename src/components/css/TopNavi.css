@@ -6,6 +6,10 @@
    box-shadow: inset;
 }
 
+span{
+    color: #20C6C0;
+}
+
 .brand{
     font-family: 'Playfair Display SC', serif;;
     font-weight: 600;
@@ -15,6 +19,7 @@
 .items{
     font-family: 'Roboto', sans-serif;
     margin-left: 4px;
+    letter-spacing: 1.5px;
 }
 
 .items:hover{
@@ -41,7 +46,14 @@
     color: white;
 }
 
-
 .total-items{
-    margin-left: 450px;
+ display: flex;
+
 }
+
+@media (min-height: 680px), screen{
+    .total-items{
+        margin: auto;
+    }
+  }
+  
