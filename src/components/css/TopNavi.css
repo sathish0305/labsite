@@ -48,12 +48,7 @@ span{
 
 .total-items{
  display: flex;
-
+ margin: auto;
 }
 
-@media (min-height: 680px), screen{
-    .total-items{
-        margin: auto;
-    }
-  }
   
