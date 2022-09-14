@@ -2,14 +2,16 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../images/lab.png'
+import logo from '../images/microscope.png'
+import './css/TopNavi.css'
+
 
 function TopNav() {
     return (
       <>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg='myRed' variant='dark' expand="lg">
       <Container>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand className='brand' href="#home">
             <img
               alt={logo}
               src={logo}
@@ -17,16 +19,16 @@ function TopNav() {
               height="30"
               className="d-inline-block align-top"
             />{'           '}
-            Labsite
+            Lab<span>site</span>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav className="me-auto p-2 total-items">
+            <Nav.Link className='items' href="#home">Home</Nav.Link>
+            <Nav.Link className='items' href="#services">Services</Nav.Link>
+            <Nav.Link className='items' href="#about">About</Nav.Link>
+            <Nav.Link className='items' href="#features">Features</Nav.Link>
+            <Nav.Link className='items' href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
