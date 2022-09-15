@@ -23,7 +23,7 @@ function App() {
     <>
      <Navbar bg='myRed' variant='dark' expand="lg">
       <Container>
-      <Navbar.Brand className='brand animate-charcter' as={Link} to='/home'>
+      <Navbar.Brand className='brand animate-charcter' as={Link} to='/'>
             <img
               alt={logo}
               src={logo}
@@ -36,7 +36,7 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto p-2 total-items">
-            <Nav.Link className='items'  as={Link} to="/home">Home</Nav.Link>
+            <Nav.Link className='items' as={Link} to="/">Home</Nav.Link>
             <Nav.Link className='items' as={Link} to="/services">Services</Nav.Link>
             <Nav.Link className='items' as={Link} to="/about">About</Nav.Link>
             <Nav.Link className='items' as={Link} to="/features">Features</Nav.Link>
@@ -48,7 +48,7 @@ function App() {
     </>
     <div>
       <Routes>
-        <Route path='/home' element={<Home/>} />
+        <Route path='/' exact element={<Home/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/features' element={<Features/>} />
