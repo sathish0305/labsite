@@ -1,13 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 .bg-myRed{
-    background: linear-gradient(90deg, hsla(248, 21%, 15%, 1) 0%, hsla(250, 14%, 61%, 1) 100%);
-   box-shadow: inset;
+    background: linear-gradient(90deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+    position: relative;
 }
 
-span{
-    color: #20C6C0;
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: flex;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .brand{
@@ -51,4 +71,8 @@ span{
  margin: auto;
 }
 
-  
+@media screen and (width: 600px) {
+  .total-items{
+   width: 100%;
+  }
+  }
