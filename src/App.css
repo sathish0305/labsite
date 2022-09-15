@@ -11,7 +11,11 @@
 .animate-charcter
 {
    text-transform: uppercase;
-  background-image: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+  background-image: linear-gradient(
+    -225deg,
+    #fff,
+    #fff
+  );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
