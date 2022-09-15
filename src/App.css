@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+.bg-myRed{
+    background: linear-gradient(90deg, hsla(248, 21%, 15%, 1) 0%, hsla(250, 14%, 61%, 1) 100%);
+   box-shadow: inset;
+}
+
+span{
+    color: #20C6C0;
+}
+
+.brand{
+    font-family: 'Playfair Display SC', serif;;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.items{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+    letter-spacing: 1.5px;
+}
+
+.items:hover{
+    color: white;
+}
+
+.items:after {
+	content: '';
+  position: relative;
+  left: 0;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid;
+   opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+.items:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+    color: white;
+}
+
+.total-items{
+ display: flex;
+ margin: auto;
+}
+
+  

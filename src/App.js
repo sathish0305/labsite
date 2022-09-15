@@ -1,14 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import TopNav from './components/Navbar';
-import Hero from './components/Hero'
+import React from 'react'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <div>
-      <TopNav/>
-      <Hero/>
-    </div>
-  );
+    <>
+    <NavBar/>
+    </>
+  )
 }
 
-export default App;
+export default App
