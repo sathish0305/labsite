@@ -21,7 +21,7 @@ function App() {
     <Router>
     <div className='App'>
     <>
-     <Navbar bg='myRed' variant='dark' expand="lg">
+     <Navbar bg='myRed' variant='dark' sticky='top' expand="lg">
       <Container>
       <Navbar.Brand className='brand animate-charcter' as={Link} to='/'>
             <img
