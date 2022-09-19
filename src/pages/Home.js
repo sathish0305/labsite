@@ -1,8 +1,9 @@
 import React from 'react'
 import '../css/Home.css'
-
+import { useState, useEffect } from 'react'; 
 
 function Home() {
+  const { innerWidth: width, innerHeight: height } = window;
   return (
     <div className='hero'>
         <div>
@@ -13,4 +14,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
