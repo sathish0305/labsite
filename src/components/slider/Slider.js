@@ -10,7 +10,7 @@ import image4 from '../../images/c-image-4.jpg'
 
 function slider() {
   return (
-  <Carousel fade className='carousel'>
+  <Carousel className='carousel'>
          
     <Carousel.Item className='carousel-item' interval={1000}>
     <img
