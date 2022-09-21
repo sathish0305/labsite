@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
+
+header {
+  margin: 35px;
+}
+header h1 {
+  position: relative;
+  font-size: 40px;
+  padding-bottom:4px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-weight: 600;
+  color: white;
+  -webkit-background-clip: text;
+  background-clip: text;    
+      
+}
+@keyframes animated-gradient{
+  to{
+    background-position: 200%;
+  }
+}
+
+header h1::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  margin-bottom: -3px; /* !importanté */
+  background: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+  animation: animated-gradient 5s infinite alternate-reverse; 
+  background-size: 200%;
+  background-position: -200%;
+}

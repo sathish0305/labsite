@@ -11,8 +11,8 @@ import {
   Link,
 } from "react-router-dom";
 import About from '../../pages/About';
-import Services from '../../pages/Services';
-import Features from '../../pages/Features';
+import Services from '../../pages/services/Services';
+import Features from '../../pages/features/Features';
 import Contact from '../../pages/Contact';
 import Home from '../../pages/Home';
 
