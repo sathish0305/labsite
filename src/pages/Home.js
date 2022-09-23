@@ -7,6 +7,7 @@ import Contact from '../pages/contact/Contact';
 import Footer from '../components/Footer/Footer';
 
 
+
 function Home() {
   return (
    <>
