@@ -39,22 +39,16 @@
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.25);
     transition: all 0.2s;
   }
   
   .f-card:hover {
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 6px 10px rgba(220, 220, 220, 0.4);
     transform: scale(1.01);
   }
   
-  .f-card__link,
-  .f-card__exit,
-  .f-card__icon {
-    position: relative;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.9);
-  }
+  
   
   .f-card::after {
     position: absolute;
@@ -71,7 +65,15 @@
     width: 100%;
   }
   
+  .icon{
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-bottom:25px;
+  }
 
+  .head{
+    margin-left: 30px;
+  }
   
   .f-card__icon {
     grid-row: 2/3;
