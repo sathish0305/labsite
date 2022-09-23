@@ -6,9 +6,11 @@ function Features() {
   return (
     <>
      <header>
-        <h1>Features</h1>
+        <h1>Our Features</h1>
     </header>
+    <div className='features'>
     <FeaturesCardView/>
+    </div>
     </>
   )
 }

@@ -58,6 +58,12 @@ h1:last-of-type {
     margin: 20px;  
 }
 
+.box:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+
 img {
     float: right;
 }
@@ -109,6 +115,10 @@ h2 {
     .box-down {
         position: relative;
         top: 150px;
+    }
+    .box-down2 {
+        position: relative;
+        top: -70px;
     }
     .box {
         width: 20%;

@@ -1,3 +1,123 @@
-h1{
-    color: crimson;
-}
+.f-main-container {
+    padding: 30px;
+  }
+  
+  /* HEADING */
+  
+  .f-heading {
+    text-align: center;
+  }
+  
+  .f-heading__title {
+    font-weight: 600;
+  }
+  
+  .f-heading__credits {
+    margin: 10px 0px;
+    color: #888888;
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+  
+  .f-heading__credits .heading__link {
+    color: inherit;
+  }
+  
+  /* CARDS */
+  
+  .f-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .f-card {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .f-card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+  .f-card__link,
+  .f-card__exit,
+  .f-card__icon {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .f-card::after {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #001233;
+    transition: all 0.5s;
+  }
+  
+  .f-card:hover::after {
+    width: 100%;
+  }
+  
+
+  
+  .f-card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .f-card__title {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+ 
+  /* CARD BACKGROUNDS */
+  
+  .f-card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+  }
+  
+  .f-card-2 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+  }
+  
+  .f-card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  .f-card-4 {
+    background: radial-gradient(#60efbc, #58d5c9);
+  }
+  
+  .f-card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .f-cards {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .f-cards {
+      justify-content: center;
+    }
+  }
+  
