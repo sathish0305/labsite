@@ -25,14 +25,7 @@ function slider() {
         <h3>First slide label</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
-        <div className="mb-2">
-        <Button variant="outline-primary m-1" size="lg">
-          Our Services
-        </Button>{' '}
-        <Button variant="outline-info m-1" size="lg">
-          Contact us
-        </Button>
-      </div>
+        
 
       </Carousel.Caption>
     </Carousel.Item>
@@ -49,14 +42,7 @@ function slider() {
         <h3>Second slide label</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-        <div className="mb-2">
-        <Button variant="outline-primary m-1" size="lg">
-          Our Services
-        </Button>{' '}
-        <Button variant="outline-info m-1" size="lg">
-          Contact us
-        </Button>
-      </div>
+      
       
       </Carousel.Caption>
     </Carousel.Item>
@@ -75,15 +61,7 @@ function slider() {
           Praesent commodo cursus magna, vel scelerisque nisl consectetur.
         </p>
 
-        <div className="mb-2">
-        <Button variant="outline-primary m-1" size="lg">
-          Our Services
-        </Button>{' '}
-        <Button variant="outline-info m-1" size="lg">
-          Contact us
-        </Button>
-      </div>
-      
+       
       </Carousel.Caption>
     </Carousel.Item>
 
@@ -99,14 +77,7 @@ function slider() {
         <h3>Fourth slide label</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 
-        <div className="mb-2">
-        <Button variant="outline-primary m-1" size="lg">
-          Our Services
-        </Button>{' '}
-        <Button variant="outline-info m-1" size="lg">
-          Contact us
-        </Button>
-      </div>
+    
       
       </Carousel.Caption>
     </Carousel.Item>

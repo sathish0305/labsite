@@ -1,0 +1,15 @@
+
+.image1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+   background-image:url(./../../images/bg.png);
+   background-size: cover;
+}
+
+.contact-col{
+    background-color: blue;
+}

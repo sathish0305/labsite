@@ -13,7 +13,7 @@ import {
 import About from '../../pages/About';
 import Services from '../../pages/services/Services';
 import Features from '../../pages/features/Features';
-import Contact from '../../pages/Contact';
+import Contact from '../../pages/contact/Contact';
 import Home from '../../pages/Home';
 
 function NavbarComp() {
