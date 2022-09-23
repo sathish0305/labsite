@@ -6,7 +6,6 @@ import image1 from '../../images/c-image-1.jpg'
 import image2 from '../../images/c-image-2.jpg'
 import image3 from '../../images/c-image-3.jpg'
 import image4 from '../../images/c-image-4.jpg'
-import Services from '../../pages/services/Services';
 
 
 
