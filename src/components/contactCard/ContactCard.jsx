@@ -14,13 +14,8 @@ function ContactCard() {
     <Container>
       <Row>
         <Col sm={6}>
-         
           <img className='image1' src={image1} alt='image'/>
-         
-      
         </Col>
-
-
 
         <Col className='contact contact-col' sm={6}>
           <div>

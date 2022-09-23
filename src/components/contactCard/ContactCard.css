@@ -13,3 +13,8 @@
 .contact-col{
     background-color: blue;
 }
+
+.form-c{
+    display: flex;
+    justify-content: center;
+}
