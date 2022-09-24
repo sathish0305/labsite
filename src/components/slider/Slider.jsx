@@ -21,8 +21,8 @@ function slider() {
         />
      
       <Carousel.Caption className='carosel-caption'>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>Latest News</h3>
+        <p>Equipped with the latest 1.5 Tesla, 128 and 16 Slice CT Scanner, to deliver quality care.</p>
 
         
 
@@ -38,8 +38,8 @@ function slider() {
      
    
       <Carousel.Caption  className='carosel-caption'>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Our Team</h3>
+        <p>Highly skilled team that works together to deliver the highest standard of diagnostic service.</p>
 
       
       
@@ -55,9 +55,9 @@ function slider() {
      
   
       <Carousel.Caption  className='carosel-caption'>
-        <h3>Third slide label</h3>
+        <h3>Our Centers</h3>
         <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        Well-managed and hygienic centers for customers to feel comfortable during checkups
         </p>
 
        
@@ -73,8 +73,10 @@ function slider() {
      
 
       <Carousel.Caption  className='carosel-caption'>
-        <h3>Fourth slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>Popular Health Check Packages</h3>
+        <p>
+Basic Health Check-Up At Home
+Master Health Check-Up At Home</p>
 
     
       

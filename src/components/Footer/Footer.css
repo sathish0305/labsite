@@ -1,0 +1,30 @@
+:root {
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0);
+  }
+  
+
+.footer-top {
+    padding-bottom: 90px;
+    padding-top: 90px;
+    background-color: var(--dark);
+  }
+  
+  .footer-top a {
+    color: var(--body);
+  }
+  
+  .footer-top a:hover {
+    color: white;
+  }
+  
+  .logo {
+    width: 160px;
+  }
+  
+  .footer-bottom {
+    background-color: #242933;
+  }
+  

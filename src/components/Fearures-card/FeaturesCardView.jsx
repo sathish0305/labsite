@@ -12,34 +12,34 @@ function FeaturesCardView() {
   <div class="f-cards">
     <div class="f-card f-card-1">
     
-      <h1 className='head'><span className='f-card__link'>Feature Title</span></h1>
+      <h1 className='head'><span className='f-card__link'>Advanced Equipement</span></h1>
       <span className='icon'><i class="fas fa-bolt"></i></span>
-      <h2 class="f-card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <h2 class="f-card__title">We have Powerful equipments to provide better results</h2>
     </div>
     <div class="f-card f-card-2">
-    <h1 className='head'><span className='f-card__link'>Feature Title</span></h1>
+    <h1 className='head'><span className='f-card__link'>High-Quality Services</span></h1>
       <span className='icon'><i class="fas fa-bolt"></i></span>
-      <h2 class="f-card__title">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+      <h2 class="f-card__title">We have Powerful equipments to provide better results</h2>
     </div>
     <div class="f-card f-card-3">
-    <h1 className='head'><span className='f-card__link'>Feature Title</span></h1>
+    <h1 className='head'><span className='f-card__link'>Skilled Team</span></h1>
       <span className='icon'><i class="fas fa-bolt"></i></span>
-      <h2 class="f-card__title">Ut enim ad minim veniam.</h2>
+      <h2 class="f-card__title">We hire skilled pathologists to know more about the results</h2>
     </div>
     <div class="f-card f-card-4">
-    <h1 className='head'><span className='f-card__link'>Feature Title</span></h1>
+    <h1 className='head'><span className='f-card__link'>Precise Reporting</span></h1>
       <span className='icon'><i class="fas fa-bolt"></i></span>
-      <h2 class="f-card__title">Quis nostrud exercitation ullamco laboris nisi.</h2>
+      <h2 class="f-card__title">We ensure that to provide best results</h2>
     </div>
     <div class="f-card f-card-5">
-    <h1 className='head'><span className='f-card__link'>Feature Title</span></h1>
+    <h1 className='head'><span className='f-card__link'>Our Team</span></h1>
       <span className='icon'><i class="fas fa-bolt"></i></span>
-      <h2 class="f-card__title">Ut aliquip ex ea commodo consequat. Duis aute irure dolor.</h2>
+      <h2 class="f-card__title">Our qualified and ardent team of doctors and technologists provide strong support</h2>
     </div>
     <div class="f-card f-card-1">
-    <h1 className='head'><span className='f-card__link'>Feature Title</span></h1>
+    <h1 className='head'><span className='f-card__link'>Wellness Packages</span></h1>
       <span className='icon'><i class="fas fa-bolt"></i></span>
-      <h2 class="f-card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <h2 class="f-card__title">we provide regular and basic tests</h2>
     </div>
   </div>
 </div>

@@ -10,7 +10,6 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import About from '../../pages/About';
 import Services from '../../pages/services/Services';
 import Features from '../../pages/features/Features';
 import Contact from '../../pages/contact/Contact';
@@ -37,7 +36,6 @@ function NavbarComp() {
           <Nav className="me-auto p-2 total-items">
             <Nav.Link className='items' as={Link} to="/">Home</Nav.Link>
             <Nav.Link className='items' as={Link} to="/services">Services</Nav.Link>
-            <Nav.Link className='items' as={Link} to="/about">About</Nav.Link>
             <Nav.Link className='items' as={Link} to="/features">Features</Nav.Link>
             <Nav.Link className='items' as={Link} to="/contact">Contact</Nav.Link>
           </Nav>
@@ -48,7 +46,6 @@ function NavbarComp() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/services' element={<Services/>} />
-        <Route path='/about' element={<About/>} />
         <Route path='/features' element={<Features/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
